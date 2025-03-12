@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  DATABASE_URL: "postgresql://postgres:senhafacil@terraform-20250312164110218500000006.cnue22oayc70.us-east-1.rds.amazonaws.com:5432/postgres"
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: memcached-config
+  namespace: default
+data:
+  MEMCACHED_HOST: "ec2-54-227-69-171.compute-1.amazonaws.com"
+  MEMCACHED_PORT: "11211"
