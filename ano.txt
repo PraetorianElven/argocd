@@ -2,3 +2,4 @@
 2 Envio da imagem para ecr 
 3 Atualização do endereço da imagem no declarativo da pasta sync
  
+Tesste
